@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/css/normalize.css">
+    <link rel="stylesheet" href="/static/css/skeleton.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+    <div class="container">
+    <div class="row">
+        <h1 class="title">Поиск микроорганизмов</h1>
+        <div class="box-shadow">
+            <div class="row">
+                <div class="four columns">
+                    <label>Количество: <span class="count">0</span></label>
+                </div>
+                <div class="six columns">
+                    <label>Изображение</label>
+                    <input type="file" id="file">
+                </div>
+                <div class="two columns">
+                    <label>Цвет</label>
+                    <input type="color" id="color">
+                </div>
+            </div>
+            <div class="row">
+                <button class="two columns" onclick="back()">Назад</button>
+                <button class="eight columns" onclick="upload()">Загрузить</button>
+                <button class="two columns" onclick="next()">Вперед</button>
+            </div>
+            
+
+            <img class="imgage__bio" src="/static/img/default.jpg" alt="">
+            
+            
+        </div>
+    </div>
+        
+    </div>
+
+    <script src="/static/script/script.js"></script>
+</body>
+</html>
